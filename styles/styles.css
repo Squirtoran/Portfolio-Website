@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    border: 1px solid black;
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+
+    /* flex-direction: column; */
+}
+
+.nav-right {
+    float: right;
+}
+
+.navbar .header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* find better solution to get links to right side */
+    padding: 0 350px 0 10px;
+}
+
+.navbar ul {
+
+}
+
+.navbar ul li {
+    border-radius: 5px;
+    display: inline;
+    padding: 10px;
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: brown;
+    color: white;
+}
+
+
+
+.main {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    background-image: url(https://media.istockphoto.com/id/495880050/photo/misty-forest.jpg?s=612x612&w=0&k=20&c=UiIQi1wB_CVTDhMFA2Q5LTa_2oMNzMJr3nmUeHaQzQQ=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: 1rem;
+    padding: 10px;
+}
+
+.container p {
+    line-height: 20px;
+}
