@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-style: italic;
+    margin: 16px;
+}
+
+.container1 {
+    padding: 0 1rem;
+    text-align: left;
+}
+
+.container1 p {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    padding-bottom: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.container1 ul {
+    padding: 0.5rem 0;
+    font-weight: bold;
+}
+
+.container1 ul li {
+    line-height: 25px;
+    margin-left: 2rem;
+    font-weight: normal;
+}
+
+.container2 {
+    border: 1px solid black;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.container2 h2 {
+    text-align: center;
+}
+
+.container2 p {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    padding-bottom: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.dream-job {
+    font-weight: bold;
+}
+
+.navbar {
+    border: 1px solid black;
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+
+    /* flex-direction: column; */
+}
+
+.nav-right {
+    float: right;
+}
+
+.navbar .header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* find better solution to get links to right side */
+    padding: 0 350px 0 10px;
+}
+
+
+
+.navbar ul li {
+    border-radius: 5px;
+    display: inline;
+    padding: 10px;
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: brown;
+    color: white;
+}
