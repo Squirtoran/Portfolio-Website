@@ -13,12 +13,18 @@ h1 {
 }
 
 .container {
-    border: 1px solid black;
-    margin-top: 1rem;
+    max-width: 800px;
+    padding: ;
     height: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 .card {
@@ -41,9 +47,9 @@ h1 {
 }
 
 .project-title {
-    border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
     background-color: rgba(255, 255, 255, 0.5);
+    color: black;
     width: 100%;
     height: 33%;
     position: relative;
@@ -52,11 +58,6 @@ h1 {
     align-items: center;
     font-size: 1.25rem;
 }
-
-.card1 {
-
-}
-
 
 
 .navbar {
@@ -67,7 +68,6 @@ h1 {
     background-color: beige;
     display: flex;
     align-items: center;
-
     /* flex-direction: column; */
 }
 
@@ -83,7 +83,7 @@ h1 {
 }
 
 .navbar ul {
-
+    
 }
 
 .navbar ul li {
@@ -97,4 +97,23 @@ h1 {
     transition: 1s;
     background-color: brown;
     color: white;
+}
+
+
+@media screen and (min-width:360px) {
+    .container {
+        padding: 0 1rem;
+    }
+    .card {
+        margin: 0 1rem;
+    }
+}
+
+@media screen and (min-width:280px) {
+    .container {
+        justify-content: center;
+    }
+    .card {
+        margin: 1rem;
+    }
 }
