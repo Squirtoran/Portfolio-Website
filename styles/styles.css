@@ -57,10 +57,11 @@
 }
 
 .container {
+    margin: auto;
     background-color: bisque;
     border: 2px solid black;
     border-radius: 5px;
-    width: 300px;
+    width: 80%;
     height: auto;
     position: relative;
     left: 1rem;
@@ -76,3 +77,4 @@
         height: auto;
     }
 }
+
