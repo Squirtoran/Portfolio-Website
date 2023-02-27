@@ -68,6 +68,7 @@ a {
     background-color: beige;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     /* flex-direction: column; */
 }
 
@@ -80,10 +81,6 @@ a {
     font-weight: bold;
     /* find better solution to get links to right side */
     padding: 0 350px 0 10px;
-}
-
-.navbar ul {
-    
 }
 
 .navbar ul li {
@@ -115,5 +112,11 @@ a {
     }
     .card {
         margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        height: auto;
     }
 }

@@ -11,7 +11,7 @@
     background-color: beige;
     display: flex;
     align-items: center;
-
+    flex-wrap: wrap;
     /* flex-direction: column; */
 }
 
@@ -26,9 +26,6 @@
     padding: 0 350px 0 10px;
 }
 
-.navbar ul {
-
-}
 
 .navbar ul li {
     border-radius: 5px;
@@ -72,4 +69,10 @@
 
 .container p {
     line-height: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        height: auto;
+    }
 }
